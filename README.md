@@ -10,7 +10,7 @@
 [![Read the Docs](https://img.shields.io/readthedocs/sunshinestream.svg?label=Docs&style=for-the-badge&logo=readthedocs)](http://sunshinestream.readthedocs.io)
 [![Codecov](https://img.shields.io/codecov/c/gh/LizardByte/Sunshine?token=SMGXQ5NVMJ&style=for-the-badge&logo=codecov&label=codecov)](https://codecov.io/gh/LizardByte/Sunshine)
 
-LizardByte has the full documentation hosted on [Read the Docs](https://sunshinestream.readthedocs.io).
+LizardByte has the full documentation hosted on [Read the Docs](https://sunshinestream.readthedocs.io).1
 
 ## About
 
