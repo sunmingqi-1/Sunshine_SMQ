@@ -1,49 +1,51 @@
-# Sunshine 基地版
+# Sunshine SMQ 版
 
-基于LizardByte/Sunshine的分支，提供完整的文档支持 [Read the Docs](https://docs.qq.com/aio/DSGdQc3htbFJjSFdO?p=YTpMj5JNNdB5hEKJhhqlSB)。
+基于 LizardByte/Sunshine 的分支，提供完整的文档支持 [Read the Docs](https://docs.qq.com/aio/DSGdQc3htbFJjSFdO?p=YTpMj5JNNdB5hEKJhhqlSB)。
 
 ## 项目简介
 
-**Sunshine-Foundation**  is a self-hosted game stream host for Moonlight，本分支版本在原始Sunshine基础上进行了重大改进，专注于提高各种串流终端设备与windows主机接入的游戏串流体验：
+**Sunshine-Foundation** is a self-hosted game stream host for Moonlight，本分支版本在原始 Sunshine 基础上进行了重大改进，专注于提高各种串流终端设备与 windows 主机接入的游戏串流体验：
 
 ### 🌟 核心特性
-- **HDR友好支持** - 经过优化的HDR处理管线，提供真正的HDR游戏流媒体体验
+
+- **HDR 友好支持** - 经过优化的 HDR 处理管线，提供真正的 HDR 游戏流媒体体验
 - **集成虚拟显示器** - 内置虚拟显示器管理，无需额外软件即可创建和管理虚拟显示器
-- **高级控制面板** - 直观的Web控制界面，提供实时监控和配置管理
+- **高级控制面板** - 直观的 Web 控制界面，提供实时监控和配置管理
 - **低延迟传输** - 结合最新硬件能力优化的编码处理
 - **智能配对** - 智能管理配对设备的对应配置文件
 
 ### 🖥️ 虚拟显示器集成
+
 - 动态虚拟显示器创建和销毁
 - 自定义分辨率和刷新率支持
 - 多显示器配置管理
 - 无需重启的实时配置更改
 
+## 推荐的 Moonlight 客户端
 
-## 推荐的Moonlight客户端
-
-建议使用以下经过优化的Moonlight客户端获得最佳的串流体验（激活套装属性）：
+建议使用以下经过优化的 Moonlight 客户端获得最佳的串流体验（激活套装属性）：
 
 ### 🖥️ Windows(X86_64, Arm64), MacOS, Linux 客户端
+
 [![Moonlight-PC](https://img.shields.io/badge/Moonlight-PC-red?style=for-the-badge&logo=windows)](https://github.com/qiin2333/moonlight-qt)
 
-### 📱 Android客户端
+### 📱 Android 客户端
+
 [![威力加强版 Moonlight-Android](https://img.shields.io/badge/威力加强版-Moonlight--Android-green?style=for-the-badge&logo=android)](https://github.com/qiin2333/moonlight-android/releases/tag/shortcut)
 [![王冠版 Moonlight-Android](https://img.shields.io/badge/王冠版-Moonlight--Android-blue?style=for-the-badge&logo=android)](https://github.com/WACrown/moonlight-android)
 
-### 📱 iOS客户端
+### 📱 iOS 客户端
+
 [![真砖家版 Moonlight-iOS](https://img.shields.io/badge/真砖家版-Moonlight--iOS-lightgrey?style=for-the-badge&logo=apple)](https://github.com/TrueZhuangJia/moonlight-ios-NativeMultiTouchPassthrough)
 
+### 🛠️ 其他资源
 
-### 🛠️ 其他资源 
 [awesome-sunshine](https://github.com/LizardByte/awesome-sunshine)
 
 ## 系统要求
 
-
-> [!WARNING] 
+> [!WARNING]
 > 这些表格正在持续更新中。请不要仅基于此信息购买硬件。
-
 
 <table>
     <caption id="minimum_requirements">最低配置要求</caption>
@@ -132,14 +134,16 @@
 ## 技术支持
 
 遇到问题时的解决路径：
+
 1. 查看 [使用文档](https://docs.qq.com/aio/DSGdQc3htbFJjSFdO?p=YTpMj5JNNdB5hEKJhhqlSB)
-2. 参考官方 [LizardByte文档](https://docs.lizardbyte.dev/projects/sunshine/latest/)
-3. [加入QQ交流群获取帮助](https://qm.qq.com/cgi-bin/qm/qr?k=5qnkzSaLIrIaU4FvumftZH_6Hg7fUuLD&jump_from=webapi)
+2. 参考官方 [LizardByte 文档](https://docs.lizardbyte.dev/projects/sunshine/latest/)
+3. [加入 QQ 交流群获取帮助](https://qm.qq.com/cgi-bin/qm/qr?k=5qnkzSaLIrIaU4FvumftZH_6Hg7fUuLD&jump_from=webapi)
 4. [使用两个字母！](https://uuyc.163.com/)
 
 **问题反馈标签：**
-- `hdr-support` - HDR相关问题
-- `virtual-display` - 虚拟显示器问题  
+
+- `hdr-support` - HDR 相关问题
+- `virtual-display` - 虚拟显示器问题
 - `config-help` - 配置相关问题
 
 ## 加入社区
@@ -149,4 +153,4 @@
 
 ---
 
-**Sunshine基地版 - 让游戏串流更简单**
+**Sunshine 基地版 - 让游戏串流更简单**
