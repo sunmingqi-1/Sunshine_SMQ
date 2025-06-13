@@ -97,6 +97,8 @@ set(SUNSHINE_TARGET_FILES
         "${CMAKE_SOURCE_DIR}/src/rtsp.h"
         "${CMAKE_SOURCE_DIR}/src/stream.cpp"
         "${CMAKE_SOURCE_DIR}/src/stream.h"
+        "${CMAKE_SOURCE_DIR}/src/mic_in.cpp"
+        "${CMAKE_SOURCE_DIR}/src/mic_in.h"
         "${CMAKE_SOURCE_DIR}/src/video.cpp"
         "${CMAKE_SOURCE_DIR}/src/video.h"
         "${CMAKE_SOURCE_DIR}/src/video_colorspace.cpp"
@@ -154,6 +156,8 @@ list(APPEND SUNSHINE_EXTERNAL_LIBRARIES
         ${CMAKE_THREAD_LIBS_INIT}
         enet
         opus
+        portaudio           # MIC-IN
+        ws2_32              # MIC-IN (WinSock)
         ${FFMPEG_LIBRARIES}
         ${Boost_LIBRARIES}
         ${OPENSSL_LIBRARIES}

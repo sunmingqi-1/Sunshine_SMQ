@@ -17,10 +17,16 @@ find_package(OpenSSL REQUIRED)
 find_package(PkgConfig REQUIRED)
 find_package(Threads REQUIRED)
 pkg_check_modules(CURL REQUIRED libcurl)
-
 # miniupnp
 pkg_check_modules(MINIUPNP miniupnpc REQUIRED)
 include_directories(SYSTEM ${MINIUPNP_INCLUDE_DIRS})
+# ─── PortAudio via pkg-config ──────────────────────────────
+# MSYS2 的 .pc 名字是 portaudio-2.0
+pkg_check_modules(PORTAUDIO REQUIRED portaudio-2.0)
+
+include_directories(SYSTEM ${PORTAUDIO_INCLUDE_DIRS})
+list(APPEND SUNSHINE_EXTERNAL_LIBRARIES ${PORTAUDIO_LIBRARIES})
+# ───────────────────────────────────────────────────────────
 
 # ffmpeg pre-compiled binaries
 if(NOT DEFINED FFMPEG_PREPARED_BINARIES)
